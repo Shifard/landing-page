@@ -1,0 +1,21 @@
+.third-part {
+  background-color: #E5E7EB;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-part div {
+  width: 54%;
+}
+.third-part .quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.third-part .author {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+.fourth-part {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F9FAF8;
+  box-sizing: border-box;
+}
+.fourth-part .center {
+  background-color: #3882F6;
+  width: 75%;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left p {
+  color: #E5E7Eb;
+}
+.center .right {
+  width: 90px;
+}
+.right button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 1.5px solid #F9FAF8;
+  padding: 6px 20px;
+  border-radius: 5px;
+}
