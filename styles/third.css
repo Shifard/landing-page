@@ -1,6 +1,6 @@
 .third-part {
   background-color: #E5E7EB;
-  height: 400px;
+  padding: 100px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,4 +18,16 @@
   justify-content: flex-end;
   margin-right: 40px;
   font-weight: 600;
+}
+
+@media only screen and (max-width : 767px)  {
+  .third-part {
+    padding: 50px 0;
+  }
+  .third-part .quote {
+    font-size: 1.5rem;
+  }
+  .third-part .author {
+    font-size: 0.9rem;
+  }
 }
